@@ -25,6 +25,7 @@ def huberloss(y_true, y_pred):
     L2 = 0.5 * K.square(err)
     L1 = (K.abs(err) - 0.5)
     loss = tf.where(cond, L2, L1)  # Keras does not cover where function in tensorflow :-(
+    print("test")
     return K.mean(loss)
 
 # Q関数をディープラーニングのネットワークをクラスとして定義
