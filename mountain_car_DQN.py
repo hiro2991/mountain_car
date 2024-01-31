@@ -18,6 +18,7 @@ import time
 #開始位置は、-0.6～-0.4でランダム
 #ステップ200かゴールで1エピソード終了
 
+#branch test
 
 def huberloss(y_true, y_pred):
     err = y_true - y_pred
