@@ -19,6 +19,7 @@ import time
 #ステップ200かゴールで1エピソード終了
 
 #branch test
+print("これはテストだよ")
 
 def huberloss(y_true, y_pred):
     err = y_true - y_pred
